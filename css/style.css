@@ -1,0 +1,33 @@
+body{
+    background-color: #5C6B73;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button{
+    background-color: #9AD1D4;
+    border: black 3px solid;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+table{
+    text-align: center;
+    background-color: black;
+    border-radius: 5px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+td {
+    background-color: #9AD1D4;
+    border-radius: 5px;
+    border: black 1px solid;
+}
+
+td:hover{
+    background-color: #6ec2c7;
+    cursor: pointer;
+}
